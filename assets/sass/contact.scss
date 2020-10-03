@@ -68,6 +68,9 @@
             form, #map {
                 flex: 1;
             }
+            form {
+                max-width: unset;
+            }
             #map {
                 margin-left: 0;
                 height: 570px;
@@ -84,7 +87,7 @@
             }
         }
         textarea {
-            height: 245px;
+            height: 250px;
         }
     }
 }
